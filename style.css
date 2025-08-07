@@ -10,3 +10,18 @@ body {
     height: 100vh;
     text-align: center;
 }
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    color: #FF6347; /* Cor laranja suave */
+    font-size: 3em;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4); /* Sombra para dar destaque */
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #8B0000;
+    margin-top: 40px;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Efeito sutil de sombra */
+}
