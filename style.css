@@ -1,21 +1,12 @@
 body {
-    background:#1C1C1C;
+    background: linear-gradient(to right, #1C1C1C, #4E4E4E); /* Gradiente de fundo */
     font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 20px;
     color: #C0C0C0;
-}
-div{
-    background: #A9A9A9
-}
-
-h1{
-    font-family: 'Grat Vibes', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     text-align: center;
-    color: #344139;
-   
-   
-    
 }
-
-
