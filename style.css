@@ -68,3 +68,41 @@ h2 {
     justify-content: center;
     margin-top: 30px;
 }
+
+.temas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 30px;
+    list-style: none;
+    background: linear-gradient(135deg, #1C1C1C, #3C3C3C); /* Gradiente suave */
+    border: 5px solid;
+    border-image: linear-gradient(to right, #1e620a, #8B0000, #FFB6C1, #FF7F50) 1;
+    border-radius: 16px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(247, 48, 48, 0.05);
+}
+.temas li {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    width: 100%;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.temas li:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Destaca o item no hover */
+    transform: scale(1.05); /* Leve aumento no hover */
+}
+
+.temas li:last-child {
+    border-bottom: none;
+}
+
+
